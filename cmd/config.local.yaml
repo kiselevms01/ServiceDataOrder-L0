@@ -1,0 +1,17 @@
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "makskis2011"
+  db_name: "order"
+
+
+nats_streaming:
+  host: "localhost"
+  port: 4222
+  cluster_id: "test-cluster"
+  client_id: "natsSub"
+  channel: "channel"
+
+http:
+  port: 8070

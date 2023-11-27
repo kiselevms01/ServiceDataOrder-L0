@@ -1,0 +1,6 @@
+nats_streaming:
+  host: "localhost"
+  port: 4222
+  cluster_id: "test-cluster"
+  client_id: "natsPub"
+  channel: "channel"
